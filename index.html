@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Rick and Morty API</title>
 </head>
+
 <body>
-    
+    <div class="contenedor">
+        <nav class="nav">
+            <h1 class="title">Rick and Morty API</h1>
+            <input type="text" id="search" class="search" placeholder="Buscar personaje">
+        </nav>
+        <table class="tabla">
+            <thead class="head">
+                <tr class="rows">
+                    <th>Nombre</th>
+                    <th>Genero</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>

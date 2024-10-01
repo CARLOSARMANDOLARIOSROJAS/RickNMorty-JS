@@ -1,0 +1,55 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    background-color: rgb(0, 0, 0.1);
+}
+
+.tabla{
+    width: 80%;
+    margin-top: 40px;
+    border: 1px solid #000;
+    align-items: center;
+    text-align: left;
+}
+
+.tabla thead{
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+}
+
+.tabla th, .tabla td{
+    padding: 10px;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+}
+
+.nav input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#table-body{
+    color: #fff;
+    font-size: 18px;
+}
